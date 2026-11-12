@@ -1,19 +1,3 @@
-
-// -----------------------------------------------------------------------------
-// Module: msg_assembler
-//
-// Purpose:
-//   Accepts a byte-stream market-data payload and emits each complete
-//   12-byte message as one decoded MSG transaction.
-//
-// Specification:
-//   spec_system.md       sections 1 and 3.1
-//   spec_msg_assembler.md sections 1 through 10
-//
-// Language: Verilog-2001
-// Reset:    synchronous, active-high
-// -----------------------------------------------------------------------------
-
 module msg_assembler (
     input  wire        clk,
     input  wire        rst,
